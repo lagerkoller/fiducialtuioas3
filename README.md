@@ -1,14 +1,15 @@
-=Important: The work for fiducialtuioas3 is discontinued. If you are starting a new project, consider using our new AS3 Tuio library [http://bubblebird.at/tuioflash/tuio-as3-library/ Tuio AS3]. As you most certainly came here because you want to use fiducials in AS3 find the according [http://bubblebird.at/tuioflash/guides/using-fiducials-with-tuio-as3/ Tuio AS3 fiducial howto here].=
+Important: The work for fiducialtuioas3 is discontinued. If you are starting a new project, consider using our new AS3 Tuio library [Tuio AS3] (https://github.com/lagerkoller/tuio-as3). As you most certainly came here because you want to use fiducials in AS3 find the according [Tuio AS3 fiducial howto here] (http://bubblebird.at/tuioflash/guides/using-fiducials-with-tuio-as3/).
+-----------
 
-This comprehensive fiducial as 3 framework enhances the [http://code.google.com/p/touchlib/ Touchlib's] [http://code.google.com/p/touchlib/source/browse/#svn/trunk/AS3 AS3 classes] with Tuio object interaction functionality.
+This comprehensive fiducial as 3 framework enhances the [Touchlib's] (http://code.google.com/p/touchlib/) [AS3 classes] (https://github.com/lagerkoller/tuio-as3/tree/master/org/tuio) with Tuio object interaction functionality.
 
-*If you run into problems while testing fiducialtuioas3 with the TUIOSimulator: please enable "Options → Periodic Messages" in the simulator.*
+**If you run into problems while testing fiducialtuioas3 with the TUIOSimulator: please enable "Options → Periodic Messages" in the simulator.**
 
 The  adapted Touchlib's TUIO AS3 classes are included. To make it even clearer: You don't need any other TUIO AS3 classes then those of fiducialtuioas3 as fiducialtuioas3 supports both multi-touch AND fiducials. It's complete. You can even use fiducialtuioas3 if you only want to implement multi-touch interaction.
 
 There are two versions of fiducialtuioas3:
   * _Standard_ fiducialtuioas3 that runs in combination with Flosc.
-  * _TCP version_ of fiducialtuioas3 that runs in combination [http://www.memo.tv/cross_platform_open_source_udp_tcp_bridge_for_osc_tuio_etc with a UDP to TCP bridge like that of Mehmet Akten]. This version should have a better performance than the standard version with as all this XML generation and parsing is obsolete.
+  * _TCP version_ of fiducialtuioas3 that runs in combination [with a UDP to TCP bridge like that of Mehmet Akten] (http://www.memo.tv/cross_platform_open_source_udp_tcp_bridge_for_osc_tuio_etc). This version should have a better performance than the standard version with as all this XML generation and parsing is obsolete.
 
 In fiducialtuioas3, a TuioManager controls adding, moving, rotation and removing of fiducials on a multi-touch/object interaction setup:
 {{{
@@ -46,12 +47,12 @@ pretty easy, isn't it?
 
 however, if you want different things to happen if you add a certain fiducial you will have to write other handlers as compared to the TestFiducialHandler. just cut and paste things from TestFiducialHandler and change to your taste.
 
-It it most likely that you want to use fiducialtuioas3 in combination with reacTIVision (http://reactivision.sourceforge.net/).
+It it most likely that you want to use fiducialtuioas3 in combination with [reacTIVision] (http://reactivision.sourceforge.net/).
 
 Vispol is an example project that has been created with this framework:
 
 <wiki:video url="http://www.youtube.com/watch?v=_2DywsIPNDQ"/>
 
-(More information about [http://johannesluderschmidt.de/lang/en-us/vispol-tangible-and-multi-touch-interface-video/474/ Vispol tangible interaction].)
+(More information about [Vispol tangible interaction] (http://johannesluderschmidt.de/lang/en-us/vispol-tangible-and-multi-touch-interface-video/474/).)
 
-Another great example video of what has been done with this framework can be seen [http://johannesluderschmidt.de/lang/en-us/pf-design-media-installation/452 here].
+Another great example video of what has been done with this framework can be seen [here] (http://johannesluderschmidt.de/lang/en-us/pf-design-media-installation/452).
